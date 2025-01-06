@@ -98,14 +98,14 @@ footer {
 }
 
 #flexbox-ville {
-    /*display: flex;*/
+    display: flex;
     display: grid;
     grid-template-columns: repeat (3, 400px);
     flex-wrap: nowrap;
     justify-content: center;
     gap: 30px;
-    /*flex-wrap: nowrap;
-    justify-content: space-between;*/
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .ville {
