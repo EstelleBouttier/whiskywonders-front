@@ -3,7 +3,7 @@
     <head>
         <!-- INFORMATION -->
         <title>Mon premier site</title>
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="design/style.css">
     </head>
    
@@ -27,31 +27,40 @@
                 <h1>Nos meilleures destinations</h1>
 
                 <p id="top">
-                    Découvrez le coeur du whisky écossais à travers Speyside, Islay et les Highlands : trois régions emblématiques où chaque goutte raconte une histoire
+                    Découvrez le coeur du whisky écossais à travers Speyside, Islay, Lowland et les Highlands : quatres régions emblématiques où chaque goutte raconte une histoire
                 </p>
                 <section id="flexbox-ville">
 
-                    <a href=""><div id="Speyside" class="ville">Speyside</div></a>
+                    <a href="" id="Speyside" class="ville">Speyside</a>
 
-                    <a href=""><div id="Islay" class="ville">Islay</div></a>
+                    <a href="" id="Islay" class="ville">Islay</a>
 
-                    <a href=""><div id="Highlands" class="ville">Highlands</div></a>
+                    <a href="" id="Highlands" class="ville">Highlands</a>
+
+                    <a href="" id="Lowland" class="ville">Lowland</a>
+                
                 </section>
+
+                <!--EN VOIR PLUS-->
+                <div style="text-align : right; margin-top: 10px "> 
+                    <a href="" id="voir">En voir plus <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 12H4m11 5s5-3.682 5-5s-5-5-5-5" color="currentColor"/></svg></a>
+                </div>
             </section>
-        
-            <nav>
-                <h2>Menu</h2>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="apropos.html">À propos</a></li> 
-                </ul>  
-            </nav>
         </section>
             
             <!--PIED-->
             <footer>
-                <div class="conteneur">
+                <div class="conteneur" style="display: flex; align-items: center; justify-content: space-between;">
+                   <div>
+                    <img src="https://cultea.fr/wp-content/uploads/2021/08/Chardon-768x515.png" alt="Ecosse" style="width: 70px; display: block;"/>
                     2024 © Wisky Wonders
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="apropos.html">À propos</a></li> 
+                        </ul>
+                    </nav>
                 </div>
             </footer>
     </body>
