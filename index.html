@@ -2,9 +2,30 @@
 <html lang="fr">
     <head>
         <!-- INFORMATION -->
-        <title>Mon premier site</title>
+        <title>Whisky wonders - Agence de voyage</title>
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="design/style.css">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SB7BGXQYV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8SB7BGXQYV');
+    </script>
+    <!--SOCIALS-->
+    <!--og = opengraph, 6 balises à toujours avoir sur son site-->
+    <meta name="og:title" content="Whisky wonders">
+    <meta name="og:description" content="Explorer l'Ecosse, savourer chaque goutte">
+    <meta name="og:image" content="https://tse1.mm.bing.net/th?id=OIP.dbSCc8KjElBmmQ5JklzCnQHaE8&pid=Api">
+    <meta name="og:url" content="http://whiskywonders.infy.uk/">
+    <meta name="og:site_name" content="Whisky wonders">
+    <meta name="og:image:alt" content="Ecosse">
+    <!--ENCODER-->
+    <meta charset="utf-8">
+    <!-- RESPONSIVE-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     </head>
    
     <body>
@@ -50,8 +71,8 @@
             
             <!--PIED-->
             <footer>
-                <div class="conteneur" style="display: flex; align-items: center; justify-content: space-between;">
-                   <div>
+                <div class="conteneur" id="flexbox-foot">
+                   <div id="logo-foot">
                     <img src="https://cultea.fr/wp-content/uploads/2021/08/Chardon-768x515.png" alt="Ecosse" style="width: 70px; display: block;"/>
                     2024 © Wisky Wonders
                     </div>
